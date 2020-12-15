@@ -104,8 +104,10 @@ class MessageViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
-    
-    class DateHeaderLabel: UILabel {
+     
+}
+
+  class DateHeaderLabel: UILabel {
         override var intrinsicContentSize: CGSize{
             let orignalSize = super.intrinsicContentSize
             let height = orignalSize.height + 12
@@ -114,9 +116,6 @@ class MessageViewController: UITableViewController {
             return CGSize(width: orignalSize.width + 20, height: height)
         }
     }
-    
-}
-
 
 
 extension Date {
