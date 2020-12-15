@@ -3,7 +3,7 @@
 //  Message
 //
 //  Created by Rashid on 05/09/2018.
-//  Copyright © 2018 GlobizServe. All rights reserved.
+//  Copyright © 2018 . All rights reserved.
 //
 
 import UIKit
